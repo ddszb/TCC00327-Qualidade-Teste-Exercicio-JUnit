@@ -90,7 +90,7 @@ public class CarrinhoTest {
     }
 
     @Test
-    public void testRemoverItemAlteraValorTotalCarrinho() throws ProdutoNaoEncontradoException{
+    public void testRemoverItemAlteraValorTotalCarrinho(){
 
         carrinho.addItem( new Produto("Produto A", 100));
         Produto p2 = new Produto("Produto B", 10);
